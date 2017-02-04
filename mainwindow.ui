@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Slider</string>
+     <string> Slider 1</string>
     </property>
    </widget>
    <widget class="QRadioButton" name="dialB">
