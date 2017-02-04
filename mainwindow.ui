@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>634</width>
+    <height>374</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QRadioButton" name="sliderB">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>38</y>
+      <width>100</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Slider</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="dialB">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>67</y>
+      <width>100</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Dial</string>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="lcdOct">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>80</y>
+      <width>311</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="digitCount">
+     <number>10</number>
+    </property>
+    <property name="mode">
+     <enum>QLCDNumber::Oct</enum>
+    </property>
+   </widget>
+   <widget class="QSlider" name="slider">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>200</y>
+      <width>81</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QDial" name="dial">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>180</y>
+      <width>151</width>
+      <height>181</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="lcdBin">
+    <property name="geometry">
+     <rect>
+      <x>283</x>
+      <y>22</y>
+      <width>311</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="digitCount">
+     <number>10</number>
+    </property>
+    <property name="mode">
+     <enum>QLCDNumber::Bin</enum>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="lcdDec">
+    <property name="geometry">
+     <rect>
+      <x>283</x>
+      <y>142</y>
+      <width>311</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="digitCount">
+     <number>10</number>
+    </property>
+    <property name="mode">
+     <enum>QLCDNumber::Dec</enum>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="lcdHex">
+    <property name="geometry">
+     <rect>
+      <x>283</x>
+      <y>202</y>
+      <width>311</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="digitCount">
+     <number>10</number>
+    </property>
+    <property name="mode">
+     <enum>QLCDNumber::Hex</enum>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
